@@ -137,6 +137,9 @@
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
     {% endif %}
+    {% if entry.award %}
+      <a class="btn btn-sm z-depth-0" role="button"><img src="assets/img/trophy.png" border="0" align="abscenter" height="15">&nbsp;&nbsp;{{ entry.award }}</a>
+    {% endif %}
     </div>
 
     <!-- Hidden abstract block -->
