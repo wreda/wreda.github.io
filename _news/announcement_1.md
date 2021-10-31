@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-8-4 15:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+<a href="/papers/assise-osdi20.pdf">Assise</a> accepted at OSDI'20.

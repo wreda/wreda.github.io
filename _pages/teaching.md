@@ -1,11 +1,12 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: List of courses taught/supervised at KTH and UCLouvain.
+order: 2
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+<p>Cloud Computing (INGI2145), UCLouvain 2014</p>
+<p>Languages and Algorithms for Distributed Applications (LINF2345), UCLouvain 2015</p>
+<p>Communication System Design (IK2200), KTH 2017-2019</p>

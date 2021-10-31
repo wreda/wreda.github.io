@@ -51,12 +51,23 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  margin-right: 2rem;
   width: 100%;
 
-  .address {
+  .mail {
     margin-bottom: 5px;
+    margin-top: 10px;
+    font-family: monospace;
+    p {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+
+  .address {
+    margin-bottom: 30px;
     margin-top: 5px;
+    font-size: 0.8rem;
     font-family: monospace;
     p {
       display: inline-block;
@@ -92,7 +103,7 @@ blockquote {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid $grey-color-light;
-  background-color: var(--global-bg-color);
+  background-color: var(--global-header-bg-color);
   opacity: 0.95;
 }
 .navbar .dropdown-menu {
@@ -118,10 +129,10 @@ blockquote {
     }
   }
   .navbar-brand {
-    color: var(--global-text-color);
+    color: var(--global-header-text-color);
   }
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
+    color: var(--global-header-text-color);
     &:hover {
       color: var(--global-hover-color);
     }
@@ -129,7 +140,7 @@ blockquote {
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
-      color: var(--global-theme-color);
+      color: var(--global-header-text-color);
       &:hover {
         color: var(--global-hover-color);
       }
@@ -145,7 +156,7 @@ blockquote {
       }
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-header-text-color);
         }
       }
     }
@@ -204,7 +215,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
     a {
       i::before {
         color: var(--global-text-color);
