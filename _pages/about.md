@@ -7,7 +7,7 @@ description:
 
 profile:
   align: left
-  image: prof_pic.png
+  image: prof_pic2.png
   address: > # Room 2431, Electrum (4th floor)
     Isafjordsgatan 26, 16440 Kista
     Stockholm, Sweden
