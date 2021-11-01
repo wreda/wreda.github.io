@@ -19,7 +19,7 @@ layout: default
       {% endif %}
       {% if site.email_obf %}
         <div class="mail">
-         {% if site.email %}<a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %}  &nbsp; {{ site.email_obf }}
+         {% if site.email %}<a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope"></i></a>{% endif %} {{ site.email_obf }}
         </div>
       {% endif %}
       {% if page.profile.address %}
