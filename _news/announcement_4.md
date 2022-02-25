@@ -4,7 +4,7 @@
 #inline: true
 #---
 
-#Our submission for the "Sort Benchmark" competition has broken the JouleSort world record!
+<a href="http://sortbenchmark.org/RezSort2021.pdf">RezSort</a> breaks the JouleSort 2021 world record!
 
 
 
