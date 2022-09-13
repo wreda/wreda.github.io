@@ -3,7 +3,6 @@ layout: about
 title: About
 permalink: /
 description:
-  PhD student in Computer Science at <a href="https://www.kth.se/">KTH</a> and <a href="https://uclouvain.be/en/index.html">UCLouvain</a>
 
 profile:
   align: left
